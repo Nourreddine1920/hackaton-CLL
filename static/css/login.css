@@ -1,0 +1,248 @@
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    background: url(../images/bg1.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    font-family: sans-serif;
+
+}
+
+
+.loginboxlayout{
+
+    width: 620px;
+
+    height: 540px;
+
+    background: #444;
+
+    color: #fff;
+
+    top: 50%;
+
+    left: 50%;
+
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+
+    box-sizing: border-box;
+
+    padding: 70px 30px;
+    border-radius: 10px;
+
+}
+
+
+.avenger{
+
+    width: 100px;
+
+    height: 100px;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: -50px;
+
+    left: calc(50% - 50px);
+
+}
+
+
+h1{
+
+    margin: 0;
+
+    padding: 0 0 20px;
+
+    text-align: center;
+
+    font-size: 22px;
+
+}
+
+
+.loginboxlayout p{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-weight: bold;
+
+}
+
+
+.loginboxlayout input{
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+
+.loginboxlayout input[type="email"], input[type="password"]
+
+{
+
+    border: none;
+
+    border-bottom: 1px solid #fff;
+
+    background: transparent;
+
+    outline: none;
+
+    height: 40px;
+
+    color: #fff;
+
+    font-size: 16px;
+
+}
+
+.loginboxlayout input[type="submit"]
+
+{
+
+    border: none;
+
+    outline: none;
+
+    height: 40px;
+
+    background: #fb2525;
+
+    color: #fff;
+
+    font-size: 18px;
+
+    border-radius: 20px;
+
+}
+
+.loginboxlayout input[type="submit"]:hover
+
+{
+
+    cursor: pointer;
+
+    background: #ffc107;
+
+    color: #000;
+
+}
+
+.loginboxlayout a{
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    line-height: 20px;
+
+    color: darkgrey;
+
+}
+
+
+.loginboxlayout a:hover
+
+{
+
+    color: #ffc107;
+
+}
+
+
+
+
+
+.or
+
+{
+
+    position: absolute;
+
+    top: 360px;
+
+    left: 130px;
+
+    width: 40px;
+
+    height: 40px;
+
+    background: #fff;
+
+    border-radius: 50%;
+
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);*/
+
+    line-height: 40px;
+    color:#fff;
+    font-color:white;
+
+    text-align: center;
+
+}
+.google
+
+{
+border: none;
+
+    outline: none;
+
+    height: 40px;
+
+    background: #fb2525;
+
+    color: #fff;
+
+    font-size: 18px;
+
+    border-radius: 20px;
+
+}
+.login:hover{
+    cursor: pointer;
+
+    background: #ffc107;
+
+    color: #000;
+
+}
+button.social
+
+{
+
+    margin-bottom: 20px;
+
+    width: 220px;
+
+    height: 36px;
+
+    border: none;
+
+    border-radius: 2px;
+
+    color: #fff;
+
+    font-family: sans-serif;
+
+    font-weight: 500;
+
+    transition: 0.2s ease;
+
+    cursor: pointer;
+
+}
